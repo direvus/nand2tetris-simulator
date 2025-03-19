@@ -1,0 +1,10 @@
+/**
+ * Wire: pass the input directly through to the output
+ */
+
+CHIP Wire {
+    IN  in;
+    OUT out;
+
+    BUILTIN Wire;
+}
